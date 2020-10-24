@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = 'Git is a version control system that tracks your changes of your code while devoloping'
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = 'GitHub is basically an online database to store your versions of code while developing'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+var init = {
+    description: 'This is how you initialize a new repository',
+    code: 'git init'
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -43,6 +52,11 @@
 
 //CODE HERE
 
+var clone = {
+    description: 'This clones the url aka: repository your copying onto your computer and links is to your Repo in GitHub',
+    code: 'git clone'
+}
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,6 +64,10 @@
 */
 
 //CODE HERE
+    var status = {
+    description: 'This is how you find out what has or has not been pushed to your repo',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -59,6 +77,11 @@
 
 //CODE HERE
 
+var add = {
+    description: 'this adds all changes in your code to your commit prior to committing it',
+    code: 'git add .'
+}
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,6 +89,11 @@
 */
 
 //CODE HERE
+
+var commit = {
+    description: 'This stamps a point in your coding to refer to for future reference and then push to Git Hub',
+    code: 'git commit -m'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,6 +103,11 @@
 
 //CODE HERE
 
+var addRemote = {
+    description: 'This is adding a repository where all team members deposity their code',
+    code: 'git remote add origin'
+}
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +115,8 @@
 */
 
 //CODE HERE
+
+var push = {
+    description: 'push will send the updated code to your Git Hub repository',
+    code: 'git push'
+}
