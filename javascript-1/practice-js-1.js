@@ -3,15 +3,23 @@
 
 //CODE HERE 
 
+var myName = 'Joe'
+
+
+
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
 
+var faveNum = 44
+
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
+
+var lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -20,6 +28,10 @@
 */
 
 //CODE HERE
+
+function sum(num1, num2) {
+  return(num1 + num2)
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -30,6 +42,13 @@
 */
 
 //CODE HERE
+
+function lovesCodeChecker(x) {
+  if (x === true) {
+    return true; 
+  }
+}
+
 
 //////////////////PROBLEM 6////////////////////
 /*
