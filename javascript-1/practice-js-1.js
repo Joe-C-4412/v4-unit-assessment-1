@@ -120,7 +120,8 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 
-const middleNums = numbers(1, 4)
+// const middleNums = numbers.slice(1, 4) or I can do it this way... just tesing myself here... 
+const middleNums = numbers.slice(1, numbers.length-1)
 
 //////////////////PROBLEM 11////////////////////
 /*
@@ -138,6 +139,15 @@ const middleNums = numbers(1, 4)
 
 //CODE HERE
 
+var me = {
+  firstName: 'Joe',
+  state: 'UT',
+  age: 44,
+  greeter: function() {
+    return `Hello! My name is ${firstName} and I live in ${state}` 
+  }
+}
+
 //////////////////PROBLEM 12////////////////////
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
@@ -153,6 +163,17 @@ const middleNums = numbers(1, 4)
 
 // CODE HERE
 
+function bigOrSmall(arr) {
+  let answers = []
+  for (let i = 0; i < arr.length; i++) {
+    if (i > 100) {
+      answers.push('big')
+    } else if (i <= 100) {
+      answers.push('small')
+    } 
+  }
+}
+
 //////////////////PROBLEM 13////////////////////
 /* 
   Create a function called 'arrayReverser' that takes in one parameter, 'arr'. 
@@ -164,6 +185,18 @@ const middleNums = numbers(1, 4)
 */
 
 //CODE HERE
+
+function arrayReverser(arr) {
+  let reversed = []
+  for (let i = arr.length-1; i >= 0; i--) {
+    reversed.unshift(i)
+    // console.log(reversed)
+    // return(reversed)
+  }
+}
+
+// arrayReverser()
+
 
 //////////////////PROBLEM 14////////////////////
 
@@ -189,7 +222,7 @@ function secondFunction() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ['global', 'inner', 'outer', 'functional']
+let globalScope = ['global', 'inner', 'outer']
 
 //This array should contain the variable names (as strings) accessible in the firstFunction function.
 let firstFunctionScope = ['global', 'inner', 'outer', 'functional']
@@ -198,7 +231,7 @@ let firstFunctionScope = ['global', 'inner', 'outer', 'functional']
 let innerFunctionScope = ['global', 'inner', 'outer', 'functional']
 
 //This array should contain the variable names (as strings) accessible in the secondFunction function.
-let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
+let secondFunctionScope = ['global', 'functional']
 
 
 //////////////////PROBLEM 15////////////////////
