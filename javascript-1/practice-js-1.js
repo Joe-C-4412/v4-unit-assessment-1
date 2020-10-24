@@ -100,7 +100,8 @@ const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
-const colorCopy = faveColors.slice(0, faveColors.length)
+// const colorCopy = faveColors.slice(0, faveColors.length) ... Or I could do it this way... 
+const colorCopy = faveColors.slice(0,4)
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
@@ -119,7 +120,7 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 
-
+const middleNums = numbers(1, 4)
 
 //////////////////PROBLEM 11////////////////////
 /*
