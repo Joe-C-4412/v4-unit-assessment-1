@@ -1,29 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+
 body {
     margin: 0; 
-    padding: 0; 
+    padding: 5px; 
+    
     
 }
 
 .top-container {
     background-color: lightpink;
-    height: 20vh;
+    height: 20%;
     width: 100%;
     border: 2px solid black;
     padding: 2px;
-    box-sizing: border-box;
 }
 .top-text-box {
     background-color: white;
     font-size: x-large;
     height: 15vh;
     width: 75%;
-    float: left;
     display: inline-block;
 }
 
 .middle-container {
-    height: 35vh;
-    width: 100vw;
+    height: 35%;
+    width: 100%;
     border: 5px dotted black; 
     padding: 10px;
     margin: 10px;  
@@ -36,7 +42,7 @@ body {
 
 }
 .bottom-container {
-    height: 45vh;
+    height: 45%;
     width: 100%;
     border: 5px dotted black;
     padding: 10px;
