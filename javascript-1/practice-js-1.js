@@ -194,7 +194,7 @@ function arrayReverser(arr) {
   for (let i = arr.length-1; i >= 0; i--) {
     reversed.push(arr[i])
   }
-  
+  return reversed
 }
 
 // var joe = [1, 2, 3] 
@@ -225,14 +225,14 @@ function secondFunction() {
   as strings.
 */
 
-//This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ['global', 'inner', 'outer']
+//This array should ONLY contain the variable names (as strings) accessible in the global scope.
+let globalScope = ['global']
 
 //This array should contain the variable names (as strings) accessible in the firstFunction function.
-let firstFunctionScope = ['global', 'inner', 'outer', 'functional']
+let firstFunctionScope = ['global', 'outer']
 
 //This array should contain the variable names (as strings) accessible in the innerFunction function.
-let innerFunctionScope = ['global', 'inner', 'outer', 'functional']
+let innerFunctionScope = ['inner', 'outer', 'global']
 
 //This array should contain the variable names (as strings) accessible in the secondFunction function.
 let secondFunctionScope = ['global', 'functional']
@@ -246,6 +246,10 @@ let secondFunctionScope = ['global', 'functional']
 
 //CODE HERE
 
+function firstItem(arr, cb) {
+  cb(arr[0])
+}
+
 //////////////////PROBLEM 16////////////////////
 /* 
   Write a function called isItBob that takes in two arguments: an object and a callback function. 
@@ -256,6 +260,15 @@ let secondFunctionScope = ['global', 'functional']
 
 //CODE HERE
 
+function isItBob(obj, cb) {
+  if obj(name === 'Bob') {
+    cb(true) 
+    } else {
+      cb(false)
+    }
+  }
+}
+
 //////////////////PROBLEM 17////////////////////
 /*
   Write a function called giveMeDoubles that takes in two arguments: an array of numbers and a callback.  
@@ -263,6 +276,12 @@ let secondFunctionScope = ['global', 'functional']
 */
 
 //CODE HERE
+
+function giveMeDoubles(arrNums, cb) {
+  for (i = 0; i < arrNums.length; i++) {
+    
+  }
+}
 
 //////////////////PROBLEM 18////////////////////
 /*
