@@ -260,14 +260,14 @@ function firstItem(arr, cb) {
 
 //CODE HERE
 
-function isItBob(obj, cb) {
-  if obj(name === 'Bob') {
-    cb(true) 
-    } else {
-      cb(false)
-    }
-  }
-}
+// function isItBob(obj, cb) {
+//   if obj(name === 'Bob') {
+//     cb(true) 
+//     } else {
+//       cb(false)
+//     }
+//   }
+// }
 
 //////////////////PROBLEM 17////////////////////
 /*
@@ -277,11 +277,11 @@ function isItBob(obj, cb) {
 
 //CODE HERE
 
-function giveMeDoubles(arrNums, cb) {
-  for (i = 0; i < arrNums.length; i++) {
+// function giveMeDoubles(arrNums, cb) {
+//   for (i = 0; i < arrNums.length; i++) {
     
-  }
-}
+//   }
+// }
 
 //////////////////PROBLEM 18////////////////////
 /*
@@ -292,3 +292,11 @@ function giveMeDoubles(arrNums, cb) {
 */
 
 //CODE HERE
+
+// function carFactory('make', 'model', 'year') {
+//   var carStuff = {
+//     make: 'Honda', 
+//     model: 'Accord', 
+//     year: 1994
+//   }
+// }
