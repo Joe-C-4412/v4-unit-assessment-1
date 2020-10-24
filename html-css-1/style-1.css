@@ -12,21 +12,38 @@ body {
     padding: 2px;
     box-sizing: border-box;
 }
+.top-text-box {
+    background-color: white;
+    font-size: x-large;
+    height: 15vh;
+    width: 75%;
+    float: left;
+    display: inline-block;
+}
 
 .middle-container {
     height: 35vh;
-    width: 100%;
-    border: 5px dotted black;
-    padding: 15px;
-    margin: 10px;
-    box-sizing: border-box;
+    width: 100vw;
+    border: 5px dotted black; 
+    padding: 10px;
+    margin: 10px;  
 }
 
+.middle-text-container {
+    padding-top: 50px;
+    font-size: xx-large;
+    margin: 10px; 
+
+}
 .bottom-container {
     height: 45vh;
     width: 100%;
     border: 5px dotted black;
     padding: 10px;
     margin: 10px;
-    box-sizing: border-box;
+}
+.bottom-text-container {
+    padding-top: 50px;
+    font-size: xx-large;
+    margin: 10px;
 }
