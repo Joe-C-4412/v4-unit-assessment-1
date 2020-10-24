@@ -166,13 +166,16 @@ var me = {
 function bigOrSmall(arr) {
   let answers = []
   for (let i = 0; i < arr.length; i++) {
-    if (i > 100) {
+    if (arr[i] > 100) {
       answers.push('big')
-    } else if (i <= 100) {
+    } else if (arr[i] <= 100) {
       answers.push('small')
     } 
   }
+  return answers
 }
+
+// bigOrSmall([1, 2, 3, 99])
 
 //////////////////PROBLEM 13////////////////////
 /* 
@@ -189,13 +192,14 @@ function bigOrSmall(arr) {
 function arrayReverser(arr) {
   let reversed = []
   for (let i = arr.length-1; i >= 0; i--) {
-    reversed.unshift(i)
-    // console.log(reversed)
-    // return(reversed)
+    reversed.push(arr[i])
   }
+  
 }
 
-// arrayReverser()
+// var joe = [1, 2, 3] 
+// let reversed = [3]
+// [2, 3]
 
 
 //////////////////PROBLEM 14////////////////////
