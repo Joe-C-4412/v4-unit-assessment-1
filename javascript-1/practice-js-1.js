@@ -1,25 +1,24 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name. */
 
+
 //CODE HERE 
 
-var myName = 'Joe'
-
-
+let myName = 'Joe'
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
 
-var faveNum = 44
+let faveNum = 44
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
 
-var lovesCode = true
+let lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -44,9 +43,11 @@ function sum(num1, num2) {
 //CODE HERE
 
 function lovesCodeChecker(x) {
-  if (x === true) {
-    return true; 
-  }
+ if (x === true) {
+  return true
+ } else {
+   return false
+ }
 }
 
 
@@ -58,7 +59,22 @@ function lovesCodeChecker(x) {
   If the number is even, return the string: 'the number is even'.
 */
 
+// function isEven(value) {
+// 	if (value%2 == 0)
+// 		return true;
+// 	else
+// 		return false;
+// }
+
 //CODE HERE
+
+function oddChecker(num) {
+  if (num%2 == 0) {
+    return 'the number is even'
+  } else {
+    return 'the number is odd'
+  }   
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -69,18 +85,29 @@ function lovesCodeChecker(x) {
 
 //CODE HERE
 
+function iLove(name, love) {
+  // return `${name} loves ${love}` // This works too. 
+  return name + ' loves ' + love
+}
+
 
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
 const faveColors = ['red', 'green', 'black']
 
+// arr.slice([start[, end]])
+
 //CODE HERE
+
+const colorCopy = faveColors.slice(0, faveColors.length)
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
+
+colorCopy.push('orange')
 
 //////////////////PROBLEM 10////////////////////
 /*
@@ -91,6 +118,8 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
+
+
 
 //////////////////PROBLEM 11////////////////////
 /*
