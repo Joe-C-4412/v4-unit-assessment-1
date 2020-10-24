@@ -260,15 +260,18 @@ function firstItem(arr, cb) {
 
 //CODE HERE
 
-// function isItBob(obj, cb) {
-//   if obj(name === 'Bob') {
-//     cb(true) 
-//     } else {
-//       cb(false)
-//     }
-//   }
-// }
+function isItBob(obj, cb) {
+  if (obj.name === 'Bob') {
+  // if (obj['name'] === 'Bob') {
+    cb(true)
+  }else {
+    cb(false)
+  }
+}
 
+let obj = {
+  name: 'Joe'
+}
 //////////////////PROBLEM 17////////////////////
 /*
   Write a function called giveMeDoubles that takes in two arguments: an array of numbers and a callback.  
@@ -277,11 +280,13 @@ function firstItem(arr, cb) {
 
 //CODE HERE
 
-// function giveMeDoubles(arrNums, cb) {
-//   for (i = 0; i < arrNums.length; i++) {
-    
-//   }
-// }
+function giveMeDoubles(arrNums, cb) {
+  let arrJoe = []
+  for (i = 0; i < arrNums.length; i++) {
+    arrJoe.push(arrNums[i] * 2)
+  }
+  cb(arrJoe)
+} 
 
 //////////////////PROBLEM 18////////////////////
 /*
@@ -292,6 +297,19 @@ function firstItem(arr, cb) {
 */
 
 //CODE HERE
+
+function carFactory(userMake, userModel, userYear) {
+  var carStuff = {
+    make: userMake, 
+    model: userModel, 
+    year: userYear
+  }
+  if (carStuff.year > 2018) {
+    carStuff.isNew = true
+  } else {
+    carStuff.isNew = false
+  }
+}
 
 // function carFactory('make', 'model', 'year') {
 //   var carStuff = {
