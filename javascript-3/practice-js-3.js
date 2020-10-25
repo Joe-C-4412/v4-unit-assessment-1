@@ -3,10 +3,14 @@
 
 //CODE HERE
 
+let groceries = ['bananas', 'milk', 'cereal']
+
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
 //CODE HERE
+
+let yourName = 'Joe'
 
 //////////////////STEP 3////////////////////
 /*
@@ -18,6 +22,10 @@
 
 //CODE HERE
 
+function setGroceryListTitle(x) {
+    
+}
+
 //////////////////STEP 4////////////////////
 /* 
     Create a function called 'addItem' that takes in one parameter called 'item'. 
@@ -27,6 +35,10 @@
 */
 
 //CODE HERE
+
+function addItem(item) {
+    addItem.push()
+}
 
 //////////////////STEP 5////////////////////
 /*
