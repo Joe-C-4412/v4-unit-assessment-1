@@ -4,12 +4,9 @@
     box-sizing: border-box;
 }
     
-
 body {
     margin: 0; 
-    padding: 5px; 
-    
-    
+    padding: 5px;   
 }
 
 .top-container {
