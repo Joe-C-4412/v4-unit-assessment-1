@@ -8,3 +8,106 @@ body {
     margin: 0; 
     padding: 5px;   
 }
+
+.header {
+    background-color: turquoise;
+    height: 10%;
+    width: 100%;
+}
+
+.header-text-box {
+    background-color: turquoise;
+    font-size: x-large;
+    height: 10%;
+    width: 100%;
+    text-align: left;
+}
+
+.top-container-header {
+    background-color: white;
+    height: 5%;
+    width: 100%;
+}
+
+.top-container-text-box {
+
+}
+
+.top-container {
+    background-color: white;
+    border: 2px, black;
+    height: 20%;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.left-rectangle {
+
+}
+
+.center-square {
+
+}
+
+.right-large-square {
+
+}
+
+.middle-container-header {
+
+}
+
+.middle-container {
+    background-color: white;
+    border: 2px, black;
+    height: 35%;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.top-cirle {
+
+}
+
+.middle-cirle {
+
+}
+
+.bottom-circle {
+
+}
+
+.bottom-container-header {
+
+}
+
+.bottom-container {
+    background-color: white;
+    border: 2px, black;
+    height: 20%;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.cream-square {
+
+}
+
+.green-circle {
+
+}
+
+.red-square {
+
+}
+
+.blue.circle {
+
+}
+
+.inside.graphic {
+
+} 
